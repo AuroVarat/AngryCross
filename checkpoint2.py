@@ -20,7 +20,7 @@ DAC1 = MCP4922( chip=1 )
 volt_range = [0.5,1.8,2.0,2.5,2.8,3.0,3.3]
 # Create and save a file containing voltage changes
 file = open("output.txt","w")
-file.write("#ADC Input from LED,DAC Output at LDR\n")
+file.write("#DAC Output Voltage tp LED,ADC Input Voltage from LDR\n")
 for volt in volt_range:
 	#Set Voltage output from DAC to LED
 	DAC1.analogWriteVolt( 0, volt)
