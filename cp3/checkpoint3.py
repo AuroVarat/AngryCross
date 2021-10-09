@@ -11,9 +11,6 @@ channel = 0
 
 time_list = []
 voltage_list = []
-#For analysing square-wave martrix
-high_volt = []
-low_volt =[]
 
 t0 =time.time()*1000 #Initial time in ms.q1	
 for i in range(100):
@@ -23,19 +20,8 @@ for i in range(100):
 	time_list.append(t)
 	voltage_list.append(voltage)
 	
-	#Uncomment for recording square wave 
-	if voltage > 0.75:
-		high_volt.append(voltage)
-	else:
-		low_volt.append(voltage)
-		
+
 	
-
-
-#calculating the high voltage end and low voltage end of a square wave.
-average_high = np.mean(high)
-average_low = np.mean(low)
-print(average_high,average_low)
 #Plotting Voltage changes against time
 pylab.plot(time_list,voltage_list)
 pylab.xlabel('Time (ms)')
