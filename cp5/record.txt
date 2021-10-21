@@ -1,0 +1,17 @@
+Record 1 - about 120 seconds
+Sensor 0 stats
+Mean: 22.858586206896547 °C
+Standard Deviation: 0.04435360829031808 °C
+Sensor 1 stats:
+Mean: 22.75193103448276 °C
+Standard Deviation: 0.04177685469952257 °C
+Sensor 0 was behind sensor 1, further away from the wires.
+
+Record 2 
+Sensor 0 stats
+Mean: 22.858586206896547 °C
+Standard Deviation: 0.04435360829031808 °C
+Sensor 1 stats:
+Mean: 22.75193103448276 °C
+Standard Deviation: 0.04177685469952257 °C
+Sensor 1 was behind sensor 0, further away from the wires.
