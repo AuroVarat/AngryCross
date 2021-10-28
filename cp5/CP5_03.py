@@ -43,5 +43,3 @@ print("Standard Deviation: {} °C".format(np.std(measurements0)))
 print("Sensor 1 stats:")
 print("Mean: {} °C".format(np.mean(measurements1)))
 print("Standard Deviation: {} °C".format(np.std(measurements1)))
-
-pylab.hist( , bins=NBins, range=[Min, Max] )
