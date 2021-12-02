@@ -1,0 +1,2 @@
+File to initiate the folder.
+Contains python files used by Auro for data analysis
